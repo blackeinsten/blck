@@ -37,7 +37,7 @@ signal.signal(signal.SIGINT, signal_handling)
 print("["+ datetime.today().strftime("%d %B %Y %H:%M:%S") +"]") #Keterangan tanggal dan waktu
 print('Start listening ...')
 
-bot = telepot.Bot('883089148:AAG8UAMuiV9thmdCBDtVMCKwV54qC8nZWuk') #Bot Token dari BotFather
+bot = telepot.Bot('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx') #Bot Token dari BotFather
 bot.message_loop(handle)
 
 #Buat program selalu running
